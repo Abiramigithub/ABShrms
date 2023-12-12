@@ -1,0 +1,36 @@
+.App {
+    font-family: Arial, sans-serif;
+    background-color: #F6F6F6;
+}
+
+.menu-container {
+    display: flex;
+    /* justify-content: space-between; */
+    border-bottom: 2px solid #ccc;
+    /* Initial border color */
+    margin-bottom: 10px;
+}
+
+.menu-item {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 10px;
+    color: grey;
+}
+
+.active-menu {
+    border-bottom: 3px solid #F0CA4E;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-content {
+    display: none;
+}
+
+.active-content {
+    display: block;
+}
